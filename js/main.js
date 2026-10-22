@@ -107,7 +107,7 @@
     ];
 
     window.location.href =
-      "mailto:1228361226@qq.com?subject=" +
+      "mailto:info@YiwuPengkai.com?subject=" +
       encodeURIComponent(subject) +
       "&body=" +
       encodeURIComponent(lines.join("\n"));
@@ -116,7 +116,7 @@
     if (status) {
       status.hidden = false;
       status.textContent =
-        "Your email application should open with this inquiry. If it does not, write directly to 1228361226@qq.com.";
+        "Your email application should open with this inquiry. If it does not, write directly to info@YiwuPengkai.com.";
     }
   });
 })();
